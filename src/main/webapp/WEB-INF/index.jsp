@@ -8,7 +8,7 @@
 	
 	<script language="javascript">
 	
-		window.location.href = "survey.php";
+		window.location.href = "surveyHome.php";
 // 		window.location.href = "guestBook.php";
 	
 	</script>

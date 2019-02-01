@@ -6,7 +6,7 @@
 <body>
 <!-- Footer -->
 <div id="footer">
-	<p>&copy; 2015 CabaMania. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+	<p>&copy; 2019 MontBlancKid. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 </div>
 <!-- end Footer -->
 </body>
