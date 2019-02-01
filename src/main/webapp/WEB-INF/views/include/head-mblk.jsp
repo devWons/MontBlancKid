@@ -6,20 +6,26 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<link href="${ctx}/css/resume.min.css" rel="stylesheet"/>
-<link href="${ctx}/css/bootstrap.min.css" rel="stylesheet">
+<%-- <link href="${ctx}/css/demos.css" rel="stylesheet"/> --%>
+
+<!-- Bootstrap core CSS -->
+<link href="${ctx}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
 
 <!-- Custom fonts for this template -->
 <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-<link href="${ctx}/css/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link href="${ctx}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="${ctx}/css/resume.min.css" rel="stylesheet">
 
 
-<script src="${ctx}/js/jquery.min.js"></script>
-<script src="${ctx}/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="${ctx}/vendor/jquery/jquery.min.js"></script>
+<script src="${ctx}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- Plugin JavaScript -->
-<script src="${ctx}/js/jquery-easing/jquery.easing.min.js"></script>
+<script src="${ctx}/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Custom scripts for this template -->
 <script src="${ctx}/js/resume.min.js"></script>
