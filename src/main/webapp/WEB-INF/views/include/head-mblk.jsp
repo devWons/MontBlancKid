@@ -19,14 +19,11 @@
 <!-- Custom styles for this template -->
 <link href="${ctx}/css/resume.min.css" rel="stylesheet">
 
-
 <!-- Bootstrap core JavaScript -->
 <script src="${ctx}/vendor/jquery/jquery.min.js"></script>
 <script src="${ctx}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Plugin JavaScript -->
-<script src="${ctx}/vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- daum 지도 api -->
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9b26596675d3e6ec17ea98d38e2c2090"></script>
 
-<!-- Custom scripts for this template -->
-<%-- <script src="${ctx}/js/resume.min.js"></script> --%>
-<script src="${ctx}/js/resume.js"></script>
+
