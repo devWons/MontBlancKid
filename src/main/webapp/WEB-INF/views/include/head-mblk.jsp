@@ -28,4 +28,5 @@
 <script src="${ctx}/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Custom scripts for this template -->
-<script src="${ctx}/js/resume.min.js"></script>
+<%-- <script src="${ctx}/js/resume.min.js"></script> --%>
+<script src="${ctx}/js/resume.js"></script>

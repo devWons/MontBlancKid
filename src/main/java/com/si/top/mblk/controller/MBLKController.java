@@ -15,6 +15,7 @@ public class MBLKController {
 	
 	@RequestMapping(value = "mblkMain.php")
 	public String surveyHome(UserInfoVO userInfoVo, Model model) {
+		log.debug("========== MBL Start !! ===========");
 		return "mblk/mblk";
 	}
 	
