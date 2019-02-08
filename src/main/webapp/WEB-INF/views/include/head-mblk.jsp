@@ -9,7 +9,8 @@
 <%-- <link href="${ctx}/css/demos.css" rel="stylesheet"/> --%>
 
 <!-- Bootstrap core CSS -->
-<link href="${ctx}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<%-- <link href="${ctx}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/> --%>
+<link href="${ctx}/vendor/bootstrap/css/bootstrap.css" rel="stylesheet"/>
 
 <!-- Custom fonts for this template -->
 <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
@@ -25,5 +26,6 @@
 
 <!-- daum 지도 api -->
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9b26596675d3e6ec17ea98d38e2c2090"></script>
+
 
 
