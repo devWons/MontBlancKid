@@ -5,6 +5,18 @@
 	<head>
 		<title><s:message code="mblk.common.title" /></title>
 		<%@ include file="/WEB-INF/views/include/head-mblk.jsp" %>
+<%-- 		<link rel="stylesheet" type="text/css" href="${ctx}/clockpicker/assets/css/bootstrap.min.css"> --%>
+		<link rel="stylesheet" type="text/css" href="${ctx}/clockpicker/dist/bootstrap-clockpicker.min.css">
+		<link rel="stylesheet" type="text/css" href="${ctx}/clockpicker/assets/css/github.min.css">
+		
+		<style>
+			.w-15 {
+			  width: 15% !important;
+			}
+			.w-35 {
+			  width: 35% !important;
+			}
+		</style>
 	</head>
   
 	<script type="text/javascript">
@@ -46,7 +58,7 @@
 			  
 			// 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
 			infowindow.open(map, marker); 
-			});
+		});
 	
 	</script>
 
@@ -272,19 +284,20 @@
 				<div class="form-group">
 					<label for="inputResName" class="col-sm-2 control-label">예약자</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="inputResName" placeholder="예약자명을 입력해주세요">
+						<input type="text" class="form-control w-35" id="inputResName" placeholder="예약자명을 입력해주세요">
 					</div>
 				</div>
 				<div class="form-group">
 					<label for="inputResPhone" class="col-sm-2 control-label">연락처</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="inputResPhone" placeholder=" '-' 를 제외한 연락처를 입력해주세요">
+						<input type="text" class="form-control w-35" id="inputResPhone" placeholder="'-' 를 제외한 연락처를 입력해주세요">
 					</div>
 				</div>
 				<div class="form-group">
 					<label for="inputResDate" class="col-sm-2 control-label">예약일자</label>
-					<div class="col-sm-10">
-						<input type="text" class="form-control" id="inputResDate" placeholder=" '-' 를 제외한 연락처를 입력해주세요">
+					<div class="col-sm-10 w-15 summary">
+						<input type="text" class="form-control" id="inputResDate" placeholder="예약 일자">
+						<input type="text" class="form-control" id="inputStartTime" placeholder="시작시간"> ~ <input type="text" class="form-control" id="inputEndTime" placeholder="종료시간">
 					</div>
 				</div>
 				<div class="form-group">
