@@ -93,7 +93,7 @@
           <h1 class="mb-0">Mont Blanc
             <span class="text-primary">Kids Cafe</span>
           </h1>
-          <div class="subheading mb-1">경북 김천시 남면 혁신1로 50 3층  몽블랑 키즈카페 /
+          <div class="subheading mb-1">경북 김천시 남면 혁신1로 50, 3층  몽블랑 키즈카페 /
 <!--             <a href="mailto:name@email.com">name@email.com</a> -->
           </div>
           <div class="subheading mb-5">010. 9513. 5115 /</div>
