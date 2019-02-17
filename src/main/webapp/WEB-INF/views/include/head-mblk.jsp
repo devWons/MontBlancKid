@@ -27,5 +27,12 @@
 <!-- daum 지도 api -->
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9b26596675d3e6ec17ea98d38e2c2090"></script>
 
+<!-- clockpicker -->
+<%-- 		<link rel="stylesheet" type="text/css" href="${ctx}/clockpicker/assets/css/bootstrap.min.css"> --%>
+<link rel="stylesheet" type="text/css" href="${ctx}/clockpicker/dist/bootstrap-clockpicker.min.css">
+<link rel="stylesheet" type="text/css" href="${ctx}/clockpicker/assets/css/github.min.css">
+<script type="text/javascript" src="${ctx}/clockpicker/dist/bootstrap-clockpicker.min.js"></script>
+<script type="text/javascript" src="${ctx}/js/mblk_clock.js"></script>
+
 
 

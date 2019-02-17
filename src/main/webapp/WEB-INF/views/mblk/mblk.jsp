@@ -5,10 +5,7 @@
 	<head>
 		<title><s:message code="mblk.common.title" /></title>
 		<%@ include file="/WEB-INF/views/include/head-mblk.jsp" %>
-<%-- 		<link rel="stylesheet" type="text/css" href="${ctx}/clockpicker/assets/css/bootstrap.min.css"> --%>
-		<link rel="stylesheet" type="text/css" href="${ctx}/clockpicker/dist/bootstrap-clockpicker.min.css">
-		<link rel="stylesheet" type="text/css" href="${ctx}/clockpicker/assets/css/github.min.css">
-		
+
 		<style>
 			.w-15 {
 			  width: 15% !important;
@@ -57,7 +54,8 @@
 			});
 			  
 			// 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
-			infowindow.open(map, marker); 
+			infowindow.open(map, marker);
+			
 		});
 	
 	</script>
@@ -297,7 +295,13 @@
 					<label for="inputResDate" class="col-sm-2 control-label">예약일자</label>
 					<div class="col-sm-10 w-15 summary">
 						<input type="text" class="form-control" id="inputResDate" placeholder="예약 일자">
-						<input type="text" class="form-control" id="inputStartTime" placeholder="시작시간"> ~ <input type="text" class="form-control" id="inputEndTime" placeholder="종료시간">
+						<input type="text" class="form-control" id="startTime" placeholder="시작시간"> ~ <input type="text" class="form-control" id="endTime" placeholder="종료시간">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputResDate" class="col-sm-2 control-label">남기실말씀</label>
+					<div class="col-sm-10">
+						<textarea class="form-control col-6" rows="3"></textarea>
 					</div>
 				</div>
 				<div class="form-group">
@@ -318,13 +322,13 @@
 
     </div>
 
-<!-- Plugin JavaScript -->
-<script src="${ctx}/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!-- Custom scripts for this template -->
-<%-- <script src="${ctx}/js/resume.min.js"></script> --%>
-<script src="${ctx}/js/resume.js"></script>
-
+	<!-- Plugin JavaScript -->
+	<script src="${ctx}/vendor/jquery-easing/jquery.easing.min.js"></script>
+	
+	<!-- Custom scripts for this template -->
+	<%-- <script src="${ctx}/js/resume.min.js"></script> --%>
+	<script src="${ctx}/js/resume.js"></script>
+	
   </body>
 
 </html>
