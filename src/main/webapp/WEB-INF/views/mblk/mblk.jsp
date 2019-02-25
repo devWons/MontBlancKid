@@ -294,7 +294,7 @@
 						<div class="col-sm-10">
 							<textarea class="form-control col-6" rows="6"></textarea>
 						</div>
-					</div>
+					</div> 
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
 							<button type="submit" class="btn btn-default">신청하기</button>
