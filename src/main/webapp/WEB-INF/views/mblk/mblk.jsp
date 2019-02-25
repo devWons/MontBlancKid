@@ -109,7 +109,7 @@
 				<div class="subheading mb-5">010. 9513. 5115 /</div>
 				<p class="lead mb-1">MontBlanc is a wonderful kids cafe that filled up with full of fun stuffs only for your precious child.</p>
 				<p class="lead mb-5">We love kids. We want your children to have a funniest day ever in MontBlanc.</p>
-				<div id="map" style="width:800px;height:400px;"></div>
+				<div id="map" style="width:97%;height:400px;"></div>
 			</div>
 		</section>
 
