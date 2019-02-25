@@ -56,6 +56,9 @@
 			// 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
 			infowindow.open(map, marker);
 			
+			
+			//캐러젤 설정
+			$('#myCarousel').carousel('cycle');
 		});
 	
 	</script>
@@ -114,7 +117,7 @@
 
 		<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="intro">
 			<div class="my-auto">
-				<h2 class="mb-5">Experience</h2>
+				<h2 class="mb-5">INTRO</h2>
 				<div class="resume-item d-flex flex-column flex-md-row mb-5">
 					<div class="resume-content mr-auto">
 						<h3 class="mb-0">Senior Web Developer</h3>
@@ -198,127 +201,108 @@
 
 		<hr class="m-0">
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="playzone">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline dev-icons">
-            <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-angular"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-react"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-node-js"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-npm"></i>
-            </li>
-          </ul>
-
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>
-        </div>
-      </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="photo">
-        <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-        </div>
-      </section>
-
-      <hr class="m-0">
-
-	<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="reservation">
-		<div class="my-auto">
-			<h2 class="mb-5">Reservation</h2>
-			<p class="lead mb-1">대관 예약시 가능한 일정을 문의 주세요</p>
-			<p class="lead mb-5">예약 일정을 확인 후 연락드리겠습니다</p>
+		<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="playzone">
+			<div class="my-auto">
+				<h2 class="mb-5">PLAY ZONE</h2>
 			
-			<form class="form-horizontal">
-				<div class="form-group">
-					<label for="inputResName" class="col-sm-2 control-label">예약자</label>
-					<div class="col-sm-10">
-						<input type="text" class="form-control w-35" id="inputResName" placeholder="예약자명을 입력해주세요">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="inputResPhone" class="col-sm-2 control-label">연락처</label>
-					<div class="col-sm-10">
-						<input type="text" class="form-control w-35" id="inputResPhone" placeholder="'-' 를 제외한 연락처를 입력해주세요">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="inputResDate" class="col-sm-2 control-label">예약일자</label>
-					<div class="col-sm-10 w-15 summary">
-						<input type="text" class="form-control" id="inputResDate" placeholder="예약 일자">
-						<input type="text" class="form-control" id="startTime" placeholder="시작시간"> ~ <input type="text" class="form-control" id="endTime" placeholder="종료시간">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="inputResDate" class="col-sm-2 control-label">남기실말씀</label>
-					<div class="col-sm-10">
-						<textarea class="form-control col-6" rows="3"></textarea>
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="col-sm-offset-2 col-sm-10">
-						<div class="checkbox">
-							<label><input type="checkbox"> Remember me</label>
+				<div class="subheading mb-3">Programming Languages &amp; Tools</div>
+				<div id="photoCarousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+						<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+						<img data-src="holder.js/1200x500/text:First slide">
+						</div>
+						<div class="item">
+						<img data-src="holder.js/1200x500/text:Second slide">
+						</div>
+						<div class="item">
+						<img data-src="holder.js/1200x500/text:Third slide">
 						</div>
 					</div>
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
 				</div>
-				<div class="form-group">
-					<div class="col-sm-offset-2 col-sm-10">
-						<button type="submit" class="btn btn-default">Sign in</button>
+		
+				<div class="subheading mb-3">Workflow</div>
+				<ul class="fa-ul mb-0">
+				  <li>
+					<i class="fa-li fa fa-check"></i>
+					Mobile-First, Responsive Design</li>
+				  <li>
+					<i class="fa-li fa fa-check"></i>
+					Cross Browser Testing &amp; Debugging</li>
+				  <li>
+					<i class="fa-li fa fa-check"></i>
+					Cross Functional Teams</li>
+				  <li>
+					<i class="fa-li fa fa-check"></i>
+					Agile Development &amp; Scrum</li>
+				</ul>
+			</div>
+		</section>
+
+		<hr class="m-0">
+
+		<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="photo">
+			<div class="my-auto">
+				<h2 class="mb-5">PHOTO</h2>
+				<p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+				<p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+			</div>
+		</section>
+
+		<hr class="m-0">
+
+		<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="reservation">
+			<div class="my-auto">
+				<h2 class="mb-5">Reservation</h2>
+				<p class="lead mb-1">대관 예약시 가능한 일정을 문의 주세요</p>
+				<p class="lead mb-5">예약 일정을 확인 후 연락드리겠습니다</p>
+				
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label for="inputResName" class="col-sm-2 control-label">예약자</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control w-35" id="inputResName" placeholder="예약자명을 입력해주세요">
+						</div>
 					</div>
-				</div>
-			</form>
-		</div>
-	</section>
+					<div class="form-group">
+						<label for="inputResPhone" class="col-sm-2 control-label">연락처</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control w-35" id="inputResPhone" placeholder="'-' 를 제외한 연락처를 입력해주세요">
+						</div>
+					</div>
+					<div class="form-group" style="display:inline-block;">
+						<div><label for="inputResDate" class="col-sm-2 control-label">예약일자</label></div>
+						<div class="col-sm-2" style="float:left; width:20%; display: inline-block;"><input type="text" class="form-control" id="inputResDate" placeholder="예약 일자"></div>
+						<div class="col-sm-2" style="float:left; width:20%;"><input type="text" class="form-control" id="startTime" placeholder="시작시간"></div>
+						<div style="float:left;"> ~ </div>
+						<div class="col-sm-2" style="float:left; width:20%;"><input type="text" class="form-control" id="endTime" placeholder="종료시간"></div>
+					</div>
+					<div class="form-group">
+						<label for="inputResDate" class="col-sm-2 control-label">남기실말씀</label>
+						<div class="col-sm-10">
+							<textarea class="form-control col-6" rows="6"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<button type="submit" class="btn btn-default">신청하기</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
 
     </div>
 

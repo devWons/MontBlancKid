@@ -23,6 +23,7 @@
 <!-- Bootstrap core JavaScript -->
 <script src="${ctx}/vendor/jquery/jquery.min.js"></script>
 <script src="${ctx}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 <!-- daum 지도 api -->
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9b26596675d3e6ec17ea98d38e2c2090"></script>
