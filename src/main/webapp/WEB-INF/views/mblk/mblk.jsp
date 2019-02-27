@@ -18,24 +18,24 @@
   
 	<script type="text/javascript">
 		$(document).ready(function(){
-			var container = document.getElementById('map');
-			var options = {
+			var container=document.getElementById('map');
+			var options={
 				center: new daum.maps.LatLng(36.11442514373248, 128.18170196307534),
 				level: 3
 			};
-			var map = new daum.maps.Map(container, options);
+			var map=new daum.maps.Map(container, options);
 			
 			
-			var imageSrc = 'http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_red.png', // 마커이미지의 주소
-			imageSize = new daum.maps.Size(64, 69), // 마커이미지의 크기
-			imageOption = {offset: new daum.maps.Point(27, 69)}; // 마커이미지의 옵션. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정
+			var imageSrc='http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_red.png', // 마커이미지의 주소
+			imageSize=new daum.maps.Size(64, 69), // 마커이미지의 크기
+			imageOption={offset: new daum.maps.Point(27, 69)}; // 마커이미지의 옵션. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정
 			      
 			// 마커의 이미지정보를 가지고 있는 마커이미지를 생성
-			var markerImage = new daum.maps.MarkerImage(imageSrc, imageSize, imageOption),
-			    markerPosition = new daum.maps.LatLng(36.11442514373248, 128.18170196307534); // 마커가 표시될 위치
+			var markerImage=new daum.maps.MarkerImage(imageSrc, imageSize, imageOption),
+			    markerPosition=new daum.maps.LatLng(36.11442514373248, 128.18170196307534); // 마커가 표시될 위치
 			
 			// 마커를 생성
-			var marker = new daum.maps.Marker({
+			var marker=new daum.maps.Marker({
 			    position: markerPosition, 
 			    image: markerImage // 마커이미지 설정 
 			});
@@ -44,11 +44,11 @@
 			marker.setMap(map);
 			
 			
-			var iwContent = '<div style="width:150px; font-weight:bold; font-size:13px; text-align:center;">몽블랑 키즈카페 <span style="font-weight:bold; font-size:20px;">3F</span></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
-			iwPosition = new daum.maps.LatLng(36.11442514373248, 128.18170196307534); //인포윈도우 표시 위치
+			var iwContent='<div style="width:150px; font-weight:bold; font-size:13px; text-align:center;">몽블랑 키즈카페 <span style="font-weight:bold; font-size:20px;">3F</span></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+			iwPosition=new daum.maps.LatLng(36.11442514373248, 128.18170196307534); //인포윈도우 표시 위치
 			
 			// 인포윈도우를 생성
-			var infowindow = new daum.maps.InfoWindow({
+			var infowindow=new daum.maps.InfoWindow({
 			    position : iwPosition, 
 			    content : iwContent 
 			});
@@ -103,8 +103,8 @@
 
 		<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
 			<div class="my-auto">
-				<h1 class="mb-0">Mont Blanc<span class="text-primary"> Kids Cafe</span></h1>
-				<div class="subheading mb-1">경북 김천시 남면 혁신1로 50, 3층  몽블랑 키즈카페 /</div>
+				<h1 class="mb-0"><span class="text-primary">Kids Cafe </span>Mont Blanc</h1>
+				<div class="subheading mb-1">경북 김천시 남면 혁신1로 50, 3층  키즈카페 몽블랑 /</div>
 				<!-- <a href="mailto:name@email.com">name@email.com</a> -->
 				<div class="subheading mb-5">010. 9513. 5115 /</div>
 				<p class="lead mb-1">MontBlanc is a wonderful kids cafe that filled up with full of fun stuffs only for your precious child.</p>
@@ -206,48 +206,35 @@
 				<h2 class="mb-5">PLAY ZONE</h2>
 			
 				<div class="subheading mb-3">Programming Languages &amp; Tools</div>
-				<div id="photoCarousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+				<div id="playzoneCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
 					<ol class="carousel-indicators">
 						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						<li data-target="#myCarousel" data-slide-to="1" class=""></li>
 						<li data-target="#myCarousel" data-slide-to="2" class=""></li>
 					</ol>
-					<div class="carousel-inner" role="listbox">
-						<div class="item active">
-						<img data-src="holder.js/1200x500/text:First slide">
+					<div class ="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide1.png" alt="First slide">
 						</div>
-						<div class="item">
-						<img data-src="holder.js/1200x500/text:Second slide">
+						
+						<div class="carousel-item">
+							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide2.png" alt="Second slide">
 						</div>
-						<div class="item">
-						<img data-src="holder.js/1200x500/text:Third slide">
+						<div class="carousel-item">
+							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide3.png" alt="Third slide">
 						</div>
 					</div>
-					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+
+					<a class="carousel-control-prev" href="#playzoneCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
 					</a>
-					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					
+					<a class="carousel-control-next" href="#playzoneCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
-		
-				<div class="subheading mb-3">Workflow</div>
-				<ul class="fa-ul mb-0">
-				  <li>
-					<i class="fa-li fa fa-check"></i>
-					Mobile-First, Responsive Design</li>
-				  <li>
-					<i class="fa-li fa fa-check"></i>
-					Cross Browser Testing &amp; Debugging</li>
-				  <li>
-					<i class="fa-li fa fa-check"></i>
-					Cross Functional Teams</li>
-				  <li>
-					<i class="fa-li fa fa-check"></i>
-					Agile Development &amp; Scrum</li>
-				</ul>
 			</div>
 		</section>
 
@@ -256,8 +243,36 @@
 		<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="photo">
 			<div class="my-auto">
 				<h2 class="mb-5">PHOTO</h2>
-				<p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-				<p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+				<div id="photoCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+
+					<div class ="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide1.png" alt="First slide">
+						</div>
+						
+						<div class="carousel-item">
+							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide2.png" alt="Second slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide3.png" alt="Third slide">
+						</div>
+					</div>
+
+					<a class="carousel-control-prev" href="#photoCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					
+					<a class="carousel-control-next" href="#photoCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
 			</div>
 		</section>
 
