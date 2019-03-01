@@ -208,9 +208,9 @@
 				<div class="subheading mb-3">Programming Languages &amp; Tools</div>
 				<div id="playzoneCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
 					<ol class="carousel-indicators">
-						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-						<li data-target="#myCarousel" data-slide-to="1" class=""></li>
-						<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+						<li data-target="#playzoneCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#playzoneCarousel" data-slide-to="1" class=""></li>
+						<li data-target="#playzoneCarousel" data-slide-to="2" class=""></li>
 					</ol>
 					<div class ="carousel-inner">
 						<div class="carousel-item active">
@@ -245,21 +245,21 @@
 				<h2 class="mb-5">PHOTO</h2>
 				<div id="photoCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
 					<ol class="carousel-indicators">
-						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						<li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#photoCarousel" data-slide-to="1"></li>
+						<li data-target="#photoCarousel" data-slide-to="2"></li>
 					</ol>
 
 					<div class ="carousel-inner">
 						<div class="carousel-item active">
-							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide1.png" alt="First slide">
+							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide1.png" alt="First slide1">
 						</div>
 						
 						<div class="carousel-item">
-							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide2.png" alt="Second slide">
+							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide2.png" alt="Second slide2">
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide3.png" alt="Third slide">
+							<img class="d-block w-100" src="https://www.tutorialspoint.com/bootstrap/images/slide3.png" alt="Third slide3">
 						</div>
 					</div>
 
