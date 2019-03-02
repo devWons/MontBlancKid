@@ -56,9 +56,7 @@
 			// 마커 위에 인포윈도우를 표시. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시
 			infowindow.open(map, marker);
 			
-			
-			//캐러젤 설정
-			$('#myCarousel').carousel('cycle');
+			$("#inputResDate").datepicker();
 		});
 	
 	</script>
@@ -299,7 +297,7 @@
 					</div>
 					<div class="form-group" style="display:inline-block;">
 						<div><label for="inputResDate" class="col-sm-2 control-label">예약일자</label></div>
-						<div class="col-sm-2" style="float:left; width:20%; display: inline-block;"><input type="text" class="form-control" id="inputResDate" placeholder="예약 일자"></div>
+						<div class="col-sm-3" style="float:left; display: inline-block;"><input type="text" class="form-control" id="inputResDate" placeholder="예약 일자"></div>
 						<div class="col-sm-2" style="float:left; width:20%;"><input type="text" class="form-control" id="startTime" placeholder="시작시간"></div>
 						<div style="float:left;"> ~ </div>
 						<div class="col-sm-2" style="float:left; width:20%;"><input type="text" class="form-control" id="endTime" placeholder="종료시간"></div>

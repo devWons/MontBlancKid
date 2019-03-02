@@ -16,12 +16,14 @@
 <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
 <link href="${ctx}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" />
 
 <!-- Custom styles for this template -->
 <link href="${ctx}/css/resume.min.css" rel="stylesheet">
 
 <!-- Bootstrap core JavaScript -->
 <script src="${ctx}/vendor/jquery/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script src="${ctx}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
@@ -34,6 +36,8 @@
 <link rel="stylesheet" type="text/css" href="${ctx}/clockpicker/assets/css/github.min.css">
 <script type="text/javascript" src="${ctx}/clockpicker/dist/bootstrap-clockpicker.min.js"></script>
 <script type="text/javascript" src="${ctx}/js/mblk_clock.js"></script>
+
+<script type="text/javascript" src="${ctx}/js/mblk_datepicker.js"></script>
 
 
 
