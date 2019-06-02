@@ -104,7 +104,7 @@
 				<h1 class="mb-0"><span class="text-primary">Kids Cafe </span>Mont Blanc</h1>
 				<div class="subheading mb-1">경북 김천시 남면 혁신1로 50, 3층  키즈카페 몽블랑 /</div>
 				<!-- <a href="mailto:name@email.com">name@email.com</a> -->
-				<div class="subheading mb-5">010. 9513. 5115 /</div>
+				<div class="subheading mb-5"><a href="/mblk/instartMain.php">010. 9513. 5115 /</a></div>
 				<p class="lead mb-1">MontBlanc is a wonderful kids cafe that filled up with full of fun stuffs only for your precious child.</p>
 				<p class="lead mb-5">We love kids. We want your children to have a funniest day ever in MontBlanc.</p>
 				<div id="map" style="width:97%;height:400px;"></div>

@@ -1,4 +1,4 @@
-package com.si.top.instar.service;
+package com.si.top.hobby.service;
 
 import java.net.InetAddress;
 import java.util.List;
@@ -15,8 +15,8 @@ import com.si.top.instar.dao.InstarDao;
 import com.si.top.unsan.domain.UserInfoVO;
 
 @Service
-public class InstarServiceImpl implements InstarService {
-	private static final Logger log = LoggerFactory.getLogger(InstarServiceImpl.class);
+public class hobbyServiceImpl implements hobbyService {
+	private static final Logger log = LoggerFactory.getLogger(hobbyServiceImpl.class);
 	public static final String CLIENT_ID = "e5f6da8c60054e368309bcb7453ade86";
 	public static final String REDIRECT_URI = "http://skswodnjs02.cafe24.com/mblk/mblkMain.php";
 	
