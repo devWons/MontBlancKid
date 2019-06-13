@@ -25,11 +25,6 @@ public class InstarServiceImpl implements InstarService {
 	InstarDao instarDao;
 
 	@Override
-	public List<UserInfoVO> selectUserList(UserInfoVO userInfoVo) {
-		return instarDao.selectUserList(userInfoVo);
-	}
-
-	@Override
 	public void instarProcessStep1() {
 
 		try {

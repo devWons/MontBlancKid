@@ -6,7 +6,5 @@ import com.si.top.unsan.domain.UserInfoVO;
 
 public interface InstarDao {
 
-	List<UserInfoVO> selectUserList(UserInfoVO userInfoVo);
-
 
 }

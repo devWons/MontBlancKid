@@ -14,9 +14,5 @@ public class InstarDaoImpl implements InstarDao {
 	@Autowired
 	SqlSession session;
 
-	@Override
-	public List<UserInfoVO> selectUserList(UserInfoVO userInfoVo) {
-		return session.selectList("selectUserList", userInfoVo);
-	}
 
 }

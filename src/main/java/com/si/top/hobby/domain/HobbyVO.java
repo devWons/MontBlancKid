@@ -1,6 +1,6 @@
 package com.si.top.hobby.domain;
 
-public class InstarVO {
+public class HobbyVO {
 
 	private String userId;
 	private String userName;

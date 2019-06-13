@@ -9,14 +9,10 @@ import org.springframework.stereotype.Repository;
 import com.si.top.unsan.domain.UserInfoVO;
 
 @Repository
-public class InstarDaoImpl implements InstarDao {
+public class HobbyDaoImpl implements HobbyDao {
 
 	@Autowired
 	SqlSession session;
 
-	@Override
-	public List<UserInfoVO> selectUserList(UserInfoVO userInfoVo) {
-		return session.selectList("selectUserList", userInfoVo);
-	}
 
 }
