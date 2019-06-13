@@ -101,7 +101,7 @@
 
 		<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
 			<div class="my-auto">
-				<h1 class="mb-0"><span class="text-primary">Kids Cafe </span>Mont Blanc</h1>
+				<h1 class="mb-0"><span class="text-primary">Kids Cafe </span>MontBlanc</h1>
 				<div class="subheading mb-1">경북 김천시 남면 혁신1로 50, 3층  키즈카페 몽블랑 /</div>
 				<!-- <a href="mailto:name@email.com">name@email.com</a> -->
 				<div class="subheading mb-5"><a href="/mblk/instartMain.php">010. 9513. 5115 /</a></div>

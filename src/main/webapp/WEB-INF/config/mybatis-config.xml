@@ -11,6 +11,7 @@
 	</settings>
 	<typeAliases>
 		<typeAlias alias="UserInfoVO" type="com.si.top.unsan.domain.UserInfoVO"/>
+		<typeAlias alias="InstarVO" type="com.si.top.instar.domain.InstarVO"/>
 	</typeAliases>
 	
 </configuration>  
